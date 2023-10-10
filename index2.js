@@ -9,6 +9,7 @@ if(isNaN(test))
 }
 else
 {
+    
     seconds=parseInt(test)
     setInterval(incrementSeconds,1000)
 }
