@@ -11,8 +11,8 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <main class="position-absolute top-50 start-50 translate-middle">
+  <body class="bg-warning">
+      <main class="position-absolute top-50 start-50 translate-middle">
       <h1>come mi chiamo?</h1>
       <form>
         <div class="mb-3">
@@ -23,11 +23,13 @@
             rows="1"
           ></textarea>
         </div>
-  
         <button id="invio" class="btn btn-primary mx-4">salva nome</button>
         <button id="cancella" class="btn btn-primary mx-1">cancella nome</button>
-    
+        <div>
+            <label class="bg-primary p-5 rounded-circle mt-2" id="second"></label>
+        </div>
       </form>
+      
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
